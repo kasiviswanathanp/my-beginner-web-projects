@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+    color: bisque;
+}
+.name{
+    padding: 1%;
+    background-image: linear-gradient(90deg, blue, blue, blue, black);
+
+}
+.image{
+    max-width: fit-content;
+    height: auto;
+}
+@media screen and (0px <= width <= 450px){
+    body{
+        font-size: 2rem;
+    }
+    .name{
+        overflow-wrap: break-word;
+        word-break: break-all;
+        position: relative;
+        left: -4%;
+    }
+    .foo{
+        max-width: 100vw;
+        padding: 0 0 7% 5%;
+    }
+    .image{
+        margin-left: -55px;
+    }
+    header, main{
+        margin: 4%;
+    }
+}
+@media  screen and (450px <= width <= 800px) {
+    body{
+        font-size: x-large;
+    }
+    .foo{
+        max-width: 100%;
+        padding: 0px 0px 30px 15px;
+    }
+    .image{
+        margin-left: 15%;
+    }
+    header, main{
+        padding: 2%;
+    }
+}
+
+@media  screen and (800px <= width <= 1400px) {
+    body{
+        font-size: xx-large;
+    }
+    header, main{
+        padding: 2%;
+    }   
+    .image{
+        margin-left: 18%;
+    }
+     .foo{
+        max-width: 100%;
+        padding: 0px 0px 30px 20px;
+    }
+}
+
+@media screen and (1400px <= width <= 3040px) {
+    body{
+        font-size: x-large;
+    }
+    .heade{
+        max-width: 65%;
+    }
+    header, main{
+        padding: 2%;
+    }
+    .header{
+        display: flex;
+        flex-direction: row;
+    }
+    .image{
+        padding-left: 15%;
+    }
+    .foo{
+        margin: 0 0 5% 3%;
+    }
+    main{
+        position: relative;
+        margin-top: -18%;
+    }
+}
