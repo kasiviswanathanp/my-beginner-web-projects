@@ -50,7 +50,7 @@ body{
 
 @media  screen and (800px <= width <= 1400px) {
     body{
-        font-size: xx-large;
+        font-size: x-large;
     }
     header, main{
         padding: 2%;
@@ -66,7 +66,7 @@ body{
 
 @media screen and (1400px <= width <= 3040px) {
     body{
-        font-size: x-large;
+        font-size: large;
     }
     .heade{
         max-width: 65%;
