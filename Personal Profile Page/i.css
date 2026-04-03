@@ -1,19 +1,27 @@
 body{
     background-color: black;
     color: bisque;
+    font-weight: 100;
+}
+a{
+    text-decoration: none;
+    color: aqua;
 }
 .name{
     padding: 1%;
-    background-image: linear-gradient(90deg, blue, blue, blue, black);
+    background-image: linear-gradient(90deg, #3E648E, #81b374);
 
 }
 .image{
     max-width: fit-content;
     height: auto;
+    border-radius: 100%;
+    border: 5px solid lightblue;
+    box-shadow: 0 0 50px #00E1FD;
 }
 @media screen and (0px <= width <= 450px){
     body{
-        font-size: 2rem;
+        font-size: 1.1rem;
     }
     .name{
         overflow-wrap: break-word;
@@ -34,7 +42,7 @@ body{
 }
 @media  screen and (450px <= width <= 800px) {
     body{
-        font-size: x-large;
+        font-size: 1.3rem;
     }
     .foo{
         max-width: 100%;
@@ -50,7 +58,7 @@ body{
 
 @media  screen and (800px <= width <= 1400px) {
     body{
-        font-size: x-large;
+        font-size: 1.5rem;
     }
     header, main{
         padding: 2%;
@@ -66,7 +74,7 @@ body{
 
 @media screen and (1400px <= width <= 3040px) {
     body{
-        font-size: large;
+        font-size: 1.7rem;
     }
     .heade{
         max-width: 65%;
