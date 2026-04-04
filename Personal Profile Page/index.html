@@ -4,33 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Profile Page</title>
+    <meta name="description" content="Personal profile page of P. Kasi Viswanathan, web designer and learner with SEO and accessibility focus.">
     <link rel="stylesheet" href="i.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <div class="heade">
-            <h1 class="name">P.KASI VISWANATHAN</h1>
-            <p>Understanding SEO (Search Engine Optimization) and web accessibility standards to ensure the site is discoverable and usable for everyone.</p>
-            <p>I'm a web designer self learner, eager to learn growing tech updates, fast, modern, attractive designer.</p>
-        </div>
-        <div>
-            <img class="image" src="/Horror Profile Dpz _ Black wallpaper, Cute black wallpaper, Dark wallpaper.jpeg" alt="user-image">
-        </div>
-    </header>
-    <main class="mid">
-        <h2>My Technical Skills:</h2>
-        <ul>
-            <li>Basic computing</li>
-            <li>Networking Knowledge</li>
-            <li>Linux experience</li>
-            <li>Web Designing</li>
-            <li>Communication</li>
-            <li>Faster Learning</li>
-        </ul>
-    </main>
-    <Footer class="foo">
-        <h3>Contact:</h3>
-        <a class="ema" href="mailto:kasiviswanathan8888@gmail.com">Email</a>
-    </Footer>
+    <div class="page-shell">
+        <header class="header">
+            <div class="sub-header">
+                <h1 class="name">P. Kasi Viswanathan</h1>
+                <p>Understanding SEO (Search Engine Optimization) and web accessibility standards to ensure the site is discoverable and usable for everyone.</p>
+                <p>I'm a self-taught web designer who learns quickly, follows modern trends, and creates attractive user experiences.</p>
+            </div>
+            <div class="imgd">
+                <button id="themeBtn" type="button" onclick="toggleTheme()" title="Toggle theme">🌙</button>
+                <img class="image" src="Horror Profile Dpz _ Black wallpaper, Cute black wallpaper, Dark wallpaper.jpeg" alt="Portrait of P. Kasi Viswanathan">
+            </div>
+        </header>
+        <main class="mid">
+            <section class="skills">
+                <h2>My Technical Skills</h2>
+                <ul>
+                    <li>Basic computing</li>
+                    <li>Networking knowledge</li>
+                    <li>Linux experience</li>
+                    <li>Web design</li>
+                    <li>Communication</li>
+                    <li>Fast learning</li>
+                </ul>
+            </section>
+        </main>
+        <footer class="foo">
+            <h3>Contact</h3>
+            <a class="ema" href="mailto:kasiviswanathan8888@gmail.com">kasiviswanathan8888@gmail.com</a>
+        </footer>
+    </div>
+    <script src="profile.js"></script>
 </body>
 </html>
