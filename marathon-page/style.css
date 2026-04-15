@@ -1,0 +1,606 @@
+:root{
+    --background: #301934;
+    --color: #FBFBFD;
+    --textimg: #FFF0F5;
+    --regbutton: #A8E4A0;
+    --button: #00CDAC;
+    --register: #2E8B57;
+    --form: #0039FF;
+    --footer: #455A9E;
+    --checkbox: #476DEF;
+    --schedule: #c9c9c9;    
+    --insidebar: #E9E9E9;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: var(--background);
+}
+.body-shell{
+    margin: 5px 0px;
+}
+.home{
+    border:  2px solid #170056;
+    border-radius: 1px;
+    padding: 0rem 1rem;
+    margin-top: 5px;
+    color: var(--color);
+    background-image: url(banner-sportsman-jogger-running-motion-260nw-2422425281.jpg);
+    position: relative;
+}
+.register-schedule{
+    border:  2px solid #170056;
+    border-radius: 10px;
+    padding: 0rem 1rem;
+    margin-top: 5px;
+    color: black;
+    background: white;
+}
+.home-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2px 0;
+}
+.top-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.svg-cut{
+    width: 3rem;
+    color: #7ACEDB;
+}
+.log{
+    font-size: small;
+}
+.logname{
+    margin-left: -15px;   
+}
+.homelogo1{
+    color: #FF60A8;
+}
+.home-reg{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: min(25%, 110px);
+    max-width: 110px;
+    height: 34px;
+    box-sizing: border-box;
+    border-radius: 22px;
+    padding: 0 0.75rem;
+    background: var(--button);
+    border: 1px solid;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 0.8rem;
+}
+.home-reg:hover{
+    background: white;
+    color: black;
+    transform: scale(1.06);
+    transition: 0.25s ease-out;
+}
+p{
+    color: var(--schedule);
+}
+h3 a{
+    color: #00A5E3;
+    text-decoration: none;
+}
+a:hover{
+    color: wheat;
+}
+.side-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 100%;
+}
+.home-data{
+    margin: 1rem 0 1rem 0.7rem;
+    flex: 1 1 auto;
+    min-width: 220px;
+}
+.home-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex: 0 0 auto;
+    margin-left: auto;
+    align-self: flex-start;
+    margin-top: 0;
+    padding-top: 0;
+}
+.register-schedule{
+    margin: 1px;
+}
+.form-container{
+    padding: 5% 2%;
+}
+input{
+    height: 25px;
+    border-radius: 5px;
+    border: 1.8px solid red ;
+    padding: 0.2rem;
+    background-color: rgb(235, 232, 232);
+}
+select{
+    height: 25px;
+    border-radius: 5px;
+    border: 1.8px solid red;
+    background-color: rgb(235, 232, 232);
+}
+.firstin{
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-around;
+}
+.lin{
+    display: flex;
+    align-items: center;
+}
+.lin input{
+    margin: -3px 3px 0 0;
+}
+.emcon{
+    width: 60vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.form-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 18px;
+}
+
+.emecat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.num{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.emecat p{
+    color: black;
+}
+.terms{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    gap: 5px;
+}
+.terms input{
+    margin-top: -2px;
+}
+.fieldss{
+    padding: 1rem;
+}
+.schedule{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    border-radius: 8px;
+    margin: 2rem 1rem;
+    padding: 1rem;
+}
+.imagesch{
+    content: "";
+    width: auto;
+    background-image: url(photo-1682367905664-e36b30f15b19.avif);
+    background-color: red;
+    height: 300px;
+}
+.timelinesch{
+    width: 100%;
+    height: auto;
+    margin: 0 0 1rem 0;
+    border: 2px solid darkgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0; 
+    border-radius: 18px;
+    background-color: var(--textimg);
+}
+.timegoing{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.par{
+    color: gray;
+}
+.submit{
+    width: 250px;
+    height: 35px;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: var(--register);
+    border: 1px solid; 
+}
+.race-badge{
+    width: 100%;
+    height: auto;
+    border: 1px solid gray;
+    margin: 0 0 1rem 0;
+    padding: 1rem;
+    border-radius: 18px;
+    background-color: var(--form);
+    color: whitesmoke;
+}
+.card{
+    width: 95%;
+    margin: 0.5rem 2.5%;   
+}
+.pars{
+    color: black;
+}
+.part{
+    color: white;
+}
+.about {
+    position: relative; /* Essential for the background layer to stay inside */
+    width: 100%;
+    min-height: 500px; /* Adjust based on your needs */
+    overflow: hidden; /* Keeps the image inside the container */
+    padding: 40px; /* Optional: adds space inside your container */
+}
+
+.about::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 1%;
+    border-radius: 8px;
+    /* Settings for your image */
+    background-image: url(istockphoto-2225250551-612x612.webp); /* Replace with your actual filename */
+    background-size: cover;
+    background-position: center;
+    
+    /* Set opacity here (0.1 is very light, 1.0 is solid) */
+    opacity: 0.6; 
+    
+    /* This moves the background behind your text/SVGs */
+    z-index: -1; 
+}
+
+/* Ensure your content is visible over the background */
+.about-1st {
+    position: relative;
+    z-index: 1;
+}
+
+.svge{
+    width: 50px;
+    height: auto;
+}
+.textabo{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    gap: 2rem;
+}
+.subtextabo{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.imgabo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;   
+    gap: 1rem;
+    justify-content: space-around;
+}
+.contain1, .contain2, .contain3{
+    width: auto;
+    height: 10rem;
+    background-color: white;
+    border-radius: 8px;
+    padding: 1rem;
+}
+.footer{
+    margin: 1px;
+    border-radius: 10px;
+    background-color: var(--footer);
+    color: var(--color);
+    padding: 1rem;
+}
+.contact-divide{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.inform{
+    display: flex;
+    flex-direction: column
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+}
+.phone{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+}
+.loc{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+}
+.svga{
+    width: 20px;
+    height: auto;
+}
+
+/* Global responsive defaults */
+.home,
+.register-schedule,
+.about,
+.footer {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home {
+    background-size: cover;
+    background-position: center;
+}
+
+.home-contents,
+.register-schedule,
+.about-1st,
+.contact-divide {
+    width: 100%;
+}
+
+.name-email,
+.emecat,
+.num,
+.subtextabo,
+.imgabo,
+.contact-divide {
+    gap: 1rem;
+}
+
+.name-email {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.name-email input,
+.emcon input,
+.emecat input,
+.num input,
+select,
+.home-reg,
+.submit {
+    width: 100%;
+}
+
+.emcon {
+    width: 100%;
+}
+
+.submit {
+    max-width: 320px;
+}
+
+.about-1st {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.imgabo {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contain1,
+.contain2,
+.contain3 {
+    flex: 1 1 220px;
+    min-width: 220px;
+}
+
+.timegoing {
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.timegoing h2 {
+    min-width: 100px;
+}
+
+.home-nav {
+    align-items: flex-end;
+}
+
+@media (max-width: 1024px) {
+    .top-content,
+    .side-nav,
+    .home-nav,
+    .about-1st,
+    .contact-divide {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .home-data {
+        width: 100%;
+        margin: 2rem 0 1rem 0;
+    }
+
+    .home-nav {
+        align-items: flex-start;
+    }
+
+    .home-reg {
+        width: 30%;
+        max-width: 440px;
+        margin-top: 1rem;
+    }
+
+    .form-container {
+        padding: 4% 3%;
+    }
+
+    .register-schedule {
+        padding: 1.5rem 1rem;
+    }
+
+    .emecat,
+    .num {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .imagesch {
+        height: 240px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 0.95rem;
+    }
+
+    .home {
+        padding: 1rem;
+    }
+
+    .home-logo {
+        flex-direction: row;
+        align-items: center;
+        gap: 0.75rem;
+    }
+    
+
+    .top-content {
+        justify-content: flex-start;
+    }
+
+    .side-nav {
+        gap: 1.5rem;
+    }
+
+    .home-nav {
+        gap: 0.75rem;
+    }
+
+    .textabo,
+    .imgabo {
+        width: 100%;
+    }
+
+    .about {
+        padding: 24px 16px;
+    }
+
+    .contact-divide {
+        gap: 1.5rem;
+    }
+
+    .email,
+    .phone,
+    .loc {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .svga,
+    .svge {
+        width: 32px;
+    }
+
+    .home-reg {
+        top: 2rem;
+        right: 1rem;
+        width: 120px;
+        height: 40px;
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 520px) {
+    .name-email,
+    .firstin,
+    .genage,
+    .about-1st,
+    .contact-divide,
+    .timegoing {
+        flex-direction: column;
+    }
+
+    .home-reg,
+    .submit,
+    .home-data,
+    .race-badge,
+    .timelinesch,
+    .imagesch,
+    .contain1,
+    .contain2,
+    .contain3 {
+        width: 100%;
+    }
+
+    .home {
+        padding: 1rem 0.75rem;
+    }
+
+    .form-container {
+        padding: 3% 1.5%;
+    }
+
+    .register-schedule {
+        border-radius: 0;
+    }
+
+    .home-nav {
+        padding-left: 0;
+    }
+
+    .home-reg {
+        top: 0.75rem;
+        right: 0.75rem;
+        width: 100px;
+        height: 35px;
+        font-size: 0.8rem;
+    }
+}

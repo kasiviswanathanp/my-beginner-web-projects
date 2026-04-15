@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marathon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="body-shell">
+        <div id="home" class="home">                 
+            <div class="home-contents">
+                <div class="top-content">
+                        <div class="home-logo">
+                            <svg  class="svg-cut" xmlns="http://w3.org" viewBox="0 0 100 100" width="100" height="100">
+                                <path d="M68.5,12.5c0,4.4-3.6,8-8,8s-8-3.6-8-8s3.6-8,8-8S68.5,8.1,68.5,12.5z M45.8,32.7l-4.3,13.1l-10.4,1.4l-0.7,5.5l14.3-1.9 l3.7-11.4l11.6,12.6l-5.6,22.1l5.3,1.3l6.5-25.5l-13.4-14.6L57,32.1l7.8-1.5l1,5.4l13.6-2.6l-1-5.4L65.5,30l-1.6-8.2l-15.6,3 L45.8,32.7z M43,58.8l-15,19.3l4.3,3.3l13.4-17.2L43,58.8z" fill="currentColor""")/>>
+                            </svg>
+                            <div class="logname">
+                                <h3 class="homelogo1 log">King</h3>
+                                <h3 class="log">MARATHON</h3>
+                            </div>
+                        </div>
+                        <a href="#form"><button  class="home-reg">Register Now</button></a>
+                </div>
+                    <div class="side-nav">
+                        <div class="home-data">
+                            <h1>Join the City <br> Marathon 2026!</h1>
+                            <p>Sign up now to secure your spot for the exciting City  Marathon 2026 and run through the heart of the city</p>
+                        </div>
+                         <nav class="home-nav">
+                            <h3 class="anc"><a class="ab" href="#home">Home</a></h3>
+                            <h3 class="anc"><a class="ab" href="#schedule">Schedule</a></h3>
+                            <h3 class="anc"><a class="ab" href="#about">About</a></h3>
+                            <h3 class="anc"><a class="ab" href="#contact">Contact</a></h3>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="register-schedule">
+            <div id="register" class="register">
+                <form class="form-container" id="form" action="post">
+                  <div class="form-con">
+                    <h2>Register for the Marathon</h2>
+                    <div class="name-email">
+                        <input type="text" placeholder="Full Name">
+                        <input type="email" placeholder="Email Address">
+                    </div>
+                    <input class="inph" type="number" placeholder="Phone Number">
+                        <h3>Gender</h3>
+                        <div class="genage">
+                            <div class="firstin">
+                                <div class="lin">
+                                <label for="name"></label>
+                                    <input  id="name" name="gender" type="radio" value="male">Male
+                                </div>
+                                <br>
+                                <div class="lin">
+                                <label for="name"></label>
+                                    <input name="gender" id="name" type="radio" value="female">Female
+                                </div>
+                        <select name="age" id="age">
+                            <optgroup label="Age">
+                                <option value="age">Age</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                                <option value="32">32</option>
+                                <option value="33">33</option>
+                                <option value="34">34</option>
+                            </optgroup>
+                        </select>
+                            </div>
+                  </div>
+                        <select name="t-shirt" id="tshirt">
+                            <option value="size">T-Shirt Size</option>
+                            <option value="m">M</option>
+                            <option value="l">L</option>
+                            <option value="xl">XL</option>
+                            <option value="xxl">XXL</option>
+                            <option value="3xl">3XL</option>
+                            <option value="4xl">4XL</option>
+                            <option value="5xl">5XL</option>
+                            <option value="6xl">7XL</option>
+                            <option value="7xl">7XL</option>
+                        </select>
+                        <div class="emcon">
+                            <div class="emecat">
+                                <p>Emergency Category</p>
+                                <input type="text" placeholder="Name">
+                            </div>
+                            <div class="num">
+                                <input type="number" placeholder="Phone-Number">
+                                <input type="number" placeholder="Tel-Number">
+                            </div>
+                        </div>
+                 
+                    <fieldset class="fieldss">
+                            <legend>Marathon Category</legend>
+                            <select name="marathon-type"  id="marathon-type">
+                                <optgroup>MARATHON TYPES</optgroup>
+                                <option value="road">Road</option>
+                                <option value="trail">Trail</option>
+                                <option value="walking">Walking</option>
+                                <option value="relay">Relay</option>
+                            </select>
+                            <div class="terms">
+                                <input type="checkbox" id="conditions" name="conditions">
+                                <label for="conditions">I agree to the <a href="#">Terms and Conditions</a></label>
+                            </div>
+                    </fieldset>
+                    <button class="submit" action="submit">Submit Registration</button>
+                  </div>
+                </form>
+            </div>
+            <div id="schedule" class="schedule">
+                <div class="imagesch"></div>
+                <div class="timelinesch">
+                    <h3>Race Starts in</h3>
+                    <div class="timegoing">
+                        <h2>12<br><span><p class="par">Days</p></span></h2>
+                        <h2>6<br><span><p class="par">Hours</p></span></h2>
+                        <h2>26<br><span><p class="par">Minutes</p></span></h2>
+                        <h2>32<br><span><p class="par">Seconds</p></span></h2>
+                    </div>
+                </div>
+                <div class="race-badge">
+                    <h3>Race Schedule</h3>
+                    <hr class="card">
+                    <h4>4:00AM-5:00AM</h4>
+                    <hr class="card">
+                    <h4>5:00Am-6:00AM</h4>
+                    <hr class="card">
+                    <h4>6:00AM</h4>
+                    <hr class="card">
+                    <h4></h4>
+                </div>    
+            </div>
+        </div>
+        <div id="about" class="about">
+            <div class="about-1st">
+                <div class="textabo">
+                    <article class="part">About the Marathon</article>
+                    <article class="part">Join the City Marathon, Lorem ipsum dolor sit amet consectetur adipisicing elit. fficiis deserunt neque voluptatum dolorem, reiciendis provident. Sapiente nemo totam illo, ratione qui deleniti expedita ullam, temporibus dicta omnis deserunt doloribus distinctio vel ab ducimus quia perspiciatis, magnam alias velit quis modi eius? Nulla deleniti, consequatur praesentium cupiditate vero unde. At molestiae quisquam aliquam magnam</article>
+                    <div class="subtextabo">
+                    <div class="contains2">
+                        <!-- Simple T-Shirt Icon -->
+                        <svg class="svge part" width="100" height="100" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.38 3.46L16 2a4 4 0 01-8 0L3.62 3.46a2 2 0 00-1.34 2.23l.58 3.47a1 1 0 00.99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 002-2V10h2.15a1 1 0 00.99-.84l.58-3.47a2 2 0 00-1.34-2.23z""")/>>
+                        </svg>
+                        <p class="part">Free T-shirts <br> Medngniona</p>
+
+                    </div>
+                    <div class="contains1">
+                        <!-- Simple Medal Icon -->
+                        <svg class="svge part" width="100" height="100" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.21 15L2.66 7.14a2 2 0 01.13-2.2L4.4 2.8A2 2 0 016 2h12a2 2 0 011.6.8l1.6 2.14a2 2 0 01.14 2.2L16.79 15" />
+                            <circle cx="12" cy="15" r="7" />
+                            <path d="M12 12v6M9 15h6" />
+                        </svg>
+                        <p class="part">Finisher Medals <br> Refreshments</p>
+                    </div>
+                    </article>
+                    </div>
+                </div>
+                <div class="imgabo">
+                    <div class="contain1">
+                        <!-- Colored Sleeveless T-Shirt (Tank Top) -->
+                        <svg class="svge" width="100" height="100" viewBox="0 0 24 24" xmlns="http://w3.org">
+                        <!-- Body of the shirt -->
+                        <path d="M7 2c1.66 0 3 1.34 3 3v1h4V5c0-1.66 1.34-3 3-3h.5a2 2 0 012 2l-1.5 16a2 2 0 01-2 2H8a2 2 0 01-2-2L4.5 4a2 2 0 012-2H7z" 
+                        fill="#3b82f6" 
+                        stroke="#1d4ed8" 
+                        stroke-width="1" />
+  
+                        <!-- Neckline detail -->
+                        <path d="M10 6h4" stroke="#1d4ed8" stroke-width="1" fill="none" />
+                        </svg>
+
+                        <p class="pars">Free Marathon T-shirt</p>
+                    </div>
+                    <div class="contain2">
+                        <!-- Styled Gold Medal -->
+                        <svg class="svge" width="100" height="100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Ribbon -->
+                        <path d="M8.21 13.89L7 2h10l-1.21 11.89" fill="#e11d48" />
+                        <!-- Medal Plate -->
+                        <circle cx="12" cy="15" r="7" fill="#facc15" stroke="#ca8a04" stroke-width="1""")/>>
+                        <!-- Inner Detail -->
+                        <circle cx="12" cy="15" r="4" fill="none" stroke="#ca8a04" stroke-width="1" />
+                        </svg>
+
+                        <p class="pars">Finisher Medals</p>
+                    </div>
+                    <div class="contain3">
+                        <!-- Colored Shower Icon -->
+                        <svg class="svge" width="100" height="100" viewBox="0 0 24 24" xmlns="http://w3.org">
+                        <!-- Pipe -->
+                        <path d="M4 22V7c0-2.76 2.24-5 5-5h8" stroke="#94a3b8" stroke-width="2" fill="none""")/>>
+  
+                        <!-- Shower Head -->
+                        <path d="M14 7l4 4 1-1-4-4-1 1z" fill="#64748b""")/>>
+                        <path d="M18 11c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3z" fill="#cbd5e1" stroke="#64748b" stroke-width="1""")/>>
+  
+                        <!-- Water Drops -->
+                        <circle cx="16" cy="15" r="1" fill="#3b82f6""")/>>
+                        <circle cx="18" cy="18" r="1" fill="#3b82f6""")/>>
+                        <circle cx="20" cy="15" r="1" fill="#3b82f6""")/>>
+                        </svg>
+
+                        <p class="pars">Refreshments</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="footer">
+            <div class="contact-divide">
+                <div class="inform">
+                    <h3>Contact Information</h3>
+                    <div class="email">
+                        <!-- Simple Colored Email Icon -->
+<svg class="svga" width="100" height="100" viewBox="0 0 24 24" xmlns="http://w3.org">
+  <!-- Envelope Body -->
+  <rect x="2" y="4" width="20" height="16" rx="2" fill="#3b82f6" />
+  
+  <!-- Envelope Flap (The "V" shape) -->
+  <path d="M22 6l-10 7L2 6" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Subtle Bottom Crease -->
+  <path d="M2 18l7.5-6.5M22 18l-7.5-6.5" stroke="#2563eb" stroke-width="1.5" stroke-linecap="round" />
+</svg>
+
+                        <p class="dpar">Email: info@example.com</p>
+                    </div>
+                    <div class="phone">
+                        <!-- Simple Colored Phone Icon -->
+<svg class="svga" width="100" height="100" viewBox="0 0 24 24" xmlns="http://w3.org">
+  <!-- Handset Body -->
+  <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" 
+        fill="#10b981" 
+        stroke="#059669" 
+        stroke-width="1" />
+</svg>
+
+                        <p class="dpar">Phone: 12345 67890</p>
+                    </div>
+                </div>
+                <div class="loc">
+                    
+                    <!-- Simple Colored Location (Map Pin) Icon -->
+<svg class="svga" width="100" height="100" viewBox="0 0 24 24" xmlns="http://w3.org">
+  <!-- Pin Body -->
+  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1118 0z" 
+        fill="#ef4444" 
+        stroke="#b91c1c" 
+        stroke-width="1" />
+  
+  <!-- Center Hole -->
+  <circle cx="12" cy="10" r="3" fill="#ffffff" />
+</svg>
+
+                    <p >Location: 123 Main Street, City, Country</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
